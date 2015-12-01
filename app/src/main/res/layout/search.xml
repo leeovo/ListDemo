@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_alignParentTop="true"
+    android:background="@color/gray_white">
+
+
+
+    <com.leeovo.listdemo.widgets.search.IconCenterEditText
+        android:id="@+id/icet_search"
+        style="@style/StyleEditText"
+        android:layout_width="314dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp" />
+
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="取消"
+        android:textColor="#d0ff0000"
+        android:textSize="18sp"
+        android:background="@drawable/btn_search_cancel"
+        android:id="@+id/btn_search_cancel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/icet_search"
+        android:layout_toEndOf="@+id/icet_search" />
+
+
+
+</RelativeLayout>
+

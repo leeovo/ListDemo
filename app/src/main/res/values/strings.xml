@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ListDemo</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="bangdan_1">像云像雾又像风</string>
+    <string name="bangdan_2">那些年</string>
+    <string name="bangdan_3">那些年</string>
+    <string name="bangdan_4">最浪漫的事</string>
+
+    <string name="bangdantuijian">榜单推荐</string>
+    <string name="yuanchanggequ">原唱歌曲</string>
+
+    <string name="more">更多</string>
+
+</resources>
